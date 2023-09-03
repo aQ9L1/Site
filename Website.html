@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .label {
+            color: white;
+            font-size: 24px;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            text-align: center;
+        }
+        .button {
+            margin-top: 20px;
+            background-color: rgb(83, 83, 83);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .navbar {
+            background-color: rgb(56, 55, 55);
+            color: white;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .button2 {
+            background-color: transparent;
+            color: white;
+            padding: 10px 10px;
+            border: none;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <span class="navbar-brand">MonkeySite</span>
+        <a href="path" class="button2">2nd page</a>
+    </div>
+    <div class="container">
+        <div class="label">Install</div>
+        <button class="button" onclick="window.location.href = 'path/to/your/file.ext'">Download</button>
+    </div>
+</body>
+</html>
